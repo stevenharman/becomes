@@ -10,7 +10,7 @@
 
 @interface Becomes()
 {
-    id _originalObject;
+    id _originalClass;
 }
 
 @end
@@ -19,7 +19,7 @@
 
 - (id)becomes:(Class)anClass
 {
-    _originalObject = isa;
+    _originalClass = isa;
     isa = anClass;
     return self;
 }
@@ -28,7 +28,7 @@
     NSMethodSignature *signature = [super methodSignatureForSelector:selector];
     
     if (!signature) {
-        signature = [_originalObject methodSignatureForSelector:selector];
+        signature = [_originalClass methodSignatureForSelector:selector];
     }
     
     return signature;
@@ -36,12 +36,12 @@
 
 - (void)forwardInvocation:(NSInvocation *)invocation
 {
-    [invocation invokeWithTarget:_originalObject];
+    [invocation invokeWithTarget:_originalClass];
 }
 
 - (BOOL) respondsToSelector:(SEL)selector
 {
-    return [super respondsToSelector:selector] || [_originalObject respondsToSelector:selector];
+    return [super respondsToSelector:selector] || [_originalClass respondsToSelector:selector];
 }
 
 @end
