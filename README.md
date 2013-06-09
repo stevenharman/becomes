@@ -2,7 +2,7 @@
 
 A hack, in coordination with [@coreyhaines](https://github.com/coreyhaines),
 and with little adult supervision, to make one Objective-C object behave like
-another. Think extending an object with a module, in Ruby
+another. Think, extending an object with a module in Ruby
 
 ```ruby
 jedi = AnakinSkywalker.new
@@ -23,3 +23,7 @@ id jedi = [[AnakinSkywalker alloc] init];
 [jedi sideOfTheForce]; // @"Dark Side"
 [jedi forceChoke]; // :metal:, you're choking!
 ```
+
+### License
+
+See the [LICENSE file](LICENSE.md)
