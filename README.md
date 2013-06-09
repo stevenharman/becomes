@@ -19,7 +19,7 @@ Except in Objective-C it looks more like
 id jedi = [[AnakinSkywalker alloc] init];
 [jedi sideOfTheForce]; // @"Light Side"
 [jedi forceChoke]; // NSInvalidArgumentException
-[jedi becomes:DarkSide];
+[jedi becomes:[DarkSide class]];
 [jedi sideOfTheForce]; // @"Dark Side"
 [jedi forceChoke]; // :metal:, you're choking!
 ```
