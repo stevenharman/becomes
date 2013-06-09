@@ -47,6 +47,8 @@
 		B00F10C0176402EB00F92D42 /* AnakinSkywalker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnakinSkywalker.m; sourceTree = "<group>"; };
 		B00F10C21764032400F92D42 /* Vader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vader.h; sourceTree = "<group>"; };
 		B00F10C31764032400F92D42 /* Vader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vader.m; sourceTree = "<group>"; };
+		B0EAD6781764CDC000876110 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
+		B0EAD6791764CDC000876110 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,8 @@
 		B00F10861763FF9F00F92D42 = {
 			isa = PBXGroup;
 			children = (
+				B0EAD6781764CDC000876110 /* LICENSE.md */,
+				B0EAD6791764CDC000876110 /* README.md */,
 				B00F10981763FFA000F92D42 /* Becomes */,
 				B00F10AA1763FFA000F92D42 /* BecomesTests */,
 				B00F10911763FF9F00F92D42 /* Frameworks */,
