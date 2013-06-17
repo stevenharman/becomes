@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B00F10931763FFA000F92D42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00F10921763FFA000F92D42 /* Cocoa.framework */; };
-		B00F109D1763FFA000F92D42 /* Becomes.m in Sources */ = {isa = PBXBuildFile; fileRef = B00F109C1763FFA000F92D42 /* Becomes.m */; };
+		B00F109D1763FFA000F92D42 /* NSObject+Becomes.m in Sources */ = {isa = PBXBuildFile; fileRef = B00F109C1763FFA000F92D42 /* NSObject+Becomes.m */; };
 		B00F10A51763FFA000F92D42 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00F10A41763FFA000F92D42 /* SenTestingKit.framework */; };
 		B00F10A61763FFA000F92D42 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00F10921763FFA000F92D42 /* Cocoa.framework */; };
 		B00F10A91763FFA000F92D42 /* Becomes.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B00F108F1763FF9F00F92D42 /* Becomes.dylib */; };
@@ -35,8 +35,8 @@
 		B00F10961763FFA000F92D42 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B00F10971763FFA000F92D42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B00F109A1763FFA000F92D42 /* Becomes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Becomes-Prefix.pch"; sourceTree = "<group>"; };
-		B00F109B1763FFA000F92D42 /* Becomes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Becomes.h; sourceTree = "<group>"; };
-		B00F109C1763FFA000F92D42 /* Becomes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Becomes.m; sourceTree = "<group>"; };
+		B00F109B1763FFA000F92D42 /* NSObject+Becomes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Becomes.h"; sourceTree = "<group>"; };
+		B00F109C1763FFA000F92D42 /* NSObject+Becomes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Becomes.m"; sourceTree = "<group>"; };
 		B00F10A31763FFA000F92D42 /* BecomesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BecomesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00F10A41763FFA000F92D42 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B00F10AC1763FFA000F92D42 /* BecomesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BecomesTests-Info.plist"; sourceTree = "<group>"; };
@@ -117,8 +117,8 @@
 		B00F10981763FFA000F92D42 /* Becomes */ = {
 			isa = PBXGroup;
 			children = (
-				B00F109B1763FFA000F92D42 /* Becomes.h */,
-				B00F109C1763FFA000F92D42 /* Becomes.m */,
+				B00F109B1763FFA000F92D42 /* NSObject+Becomes.h */,
+				B00F109C1763FFA000F92D42 /* NSObject+Becomes.m */,
 				B00F10991763FFA000F92D42 /* Supporting Files */,
 			);
 			path = Becomes;
@@ -263,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00F109D1763FFA000F92D42 /* Becomes.m in Sources */,
+				B00F109D1763FFA000F92D42 /* NSObject+Becomes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

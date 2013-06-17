@@ -7,6 +7,7 @@
 //
 
 #import "BecomesTests.h"
+#import "NSObject+Becomes.h"
 #import "AnakinSkywalker.h"
 #import "Vader.h"
 

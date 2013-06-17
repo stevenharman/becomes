@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Becomes.h"
 
-@interface AnakinSkywalker : Becomes
+@interface AnakinSkywalker : NSObject
 
 - (NSString *)sideOfTheForce;
 
